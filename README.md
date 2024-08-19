@@ -22,14 +22,14 @@
 
 ./sanger_qc.py -i <input_directory> -o <output_directory> [-w <window_size>] [-q <quality_cutoff>]
 >Arguments
->-i, --input_dir: (Required) Directory containing .ab1 files.
->-o, --output_dir: (Required) Directory for the output files.
->-w, --window_size: (Optional) Window size for moving average (default: 10).
->-q, --qual_cutoff: (Optional) Quality score cutoff for trimming (default: 30.0).
+    *-i, --input_dir: (Required) Directory containing .ab1 files.
+    *-o, --output_dir: (Required) Directory for the output files.
+    *-w, --window_size: (Optional) Window size for moving average (default: 10).
+    *-q, --qual_cutoff: (Optional) Quality score cutoff for trimming (default: 30.0).
  
 📂 Output Structure
->fasta/: Converted .fasta files.
->qual/: Converted .qual files.
->trimmed_fasta/: Trimmed .fasta files.
->trimmed_qual/: Trimmed .qual files.
+    *fasta/: Converted .fasta files.
+    *qual/: Converted .qual files.
+    *trimmed_fasta/: Trimmed .fasta files.
+    *trimmed_qual/: Trimmed .qual files.
 
