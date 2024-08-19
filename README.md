@@ -6,11 +6,15 @@
 🚀 Quick Start
 >You can start using sanger_qc with the following commands:
 
->git clone https://github.com/yourusername/sanger_qc.git
->cd sanger_qc
->pip install -r requirements.txt
->Run the script:
->./sanger_qc.py -i /path/to/ab1_files -o /path/to/output_dir -w 10 -q 30.0
+    git clone https://github.com/yourusername/sanger_qc.git
+
+    cd sanger_qc
+
+    pip install -r requirements.txt
+
+    Run the script:
+
+    ./sanger_qc.py -i /path/to/ab1_files -o /path/to/output_dir -w 10 -q 30.0
 
 ⚙️ Installation
 >Ensure you have Python 3.6+ installed. Install the required packages with:
