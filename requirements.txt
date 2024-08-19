@@ -1,0 +1,2 @@
+numpy>=1.18.0
+biopython>=1.78
