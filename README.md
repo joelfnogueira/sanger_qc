@@ -19,7 +19,8 @@
 >Run sanger_qc.py with the following options:
 
 ./sanger_qc.py -i <input_directory> -o <output_directory> [-w <window_size>] [-q <quality_cutoff>]
-Arguments
+
+>Arguments
 
     -i, --input_dir: (Required) Directory containing .ab1 files.
     -o, --output_dir: (Required) Directory for the output files.
