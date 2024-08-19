@@ -8,7 +8,7 @@
     git clone https://github.com/yourusername/sanger_qc.git
     cd sanger_qc
     pip install -r requirements.txt
-    Run the script:
+    #Run the script:
     ./sanger_qc.py -i /path/to/ab1_files -o /path/to/output_dir -w 10 -q 30.0
 
 ⚙️ Installation:
